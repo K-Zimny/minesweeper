@@ -119,7 +119,7 @@ export default function Board() {
   return (
     <>
       {fails > 3 && (
-        <div class="readme">
+        <div className="readme">
           <h1>
             Thank you for playing Parody Minesweeper: the Unwinnable Challenge!
           </h1>
@@ -127,18 +127,19 @@ export default function Board() {
             <h2>Introduction</h2>
             <p>
               Welcome to the parody version of the classic game{" "}
-              <em>Minesweeper</em>. In this twisted take on the original, we've
-              flipped the rules on their head. Traditionally, the first move in
-              Minesweeper is always a "safe move," ensuring that you can't lose
-              right off the bat. However, in this version, you are destined to
-              lose on the first turn every single time.
+              <em>Minesweeper</em>. In this twisted take on the original,
+              we&#39;ve flipped the rules on their head. Traditionally, the
+              first move in Minesweeper is always a &quot;safe move,&quot;
+              ensuring that you can&#39;t lose right off the bat. However, in
+              this version, you are destined to lose on the first turn every
+              single time.
             </p>
           </section>
 
           <section>
             <h2>The Concept</h2>
             <p>
-              The goal of this parody game is simple: make you think you're
+              The goal of this parody game is simple: make you think you&#39;re
               playing a normal game of Minesweeper while secretly ensuring you
               lose from the very beginning. The humor lies in the eventual
               realization that no matter what you do, victory is impossible.
@@ -198,10 +199,11 @@ export default function Board() {
 
             <ul>
               <li>
-                <strong>More "Realistic" Board Generation:</strong> Developing
-                an algorithm to generate boards that appear more realistic could
-                heighten the initial illusion of fairness, making the eventual
-                realization of the game's futility even more satisfying.
+                <strong>More &quot;Realistic&quot; Board Generation:</strong>{" "}
+                Developing an algorithm to generate boards that appear more
+                realistic could heighten the initial illusion of fairness,
+                making the eventual realization of the game&#39;s futility even
+                more satisfying.
               </li>
               <li>
                 <strong>Improved Number Generation:</strong> Refining the logic
@@ -211,9 +213,9 @@ export default function Board() {
               <li>
                 <strong>Randomized Loss on 2nd or 3rd Turn:</strong> Introducing
                 a randomized loss on the 2nd or 3rd turn could further enhance
-                the player's belief that the game isn't rigged, prolonging the
-                suspense and teasing them into thinking they might actually
-                win—only to dash those hopes once again.
+                the player&#39;s belief that the game isn&#39;t rigged,
+                prolonging the suspense and teasing them into thinking they
+                might actually win—only to dash those hopes once again.
               </li>
             </ul>
           </section>
